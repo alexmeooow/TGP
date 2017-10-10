@@ -1,0 +1,906 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>首页-腾讯游戏平台官方网站-TGP-腾讯游戏</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: "微软雅黑";
+	}
+	#top{
+		height: 42px;		
+		position: relative;
+	}
+	#top_logo_left{
+		width: 454px;
+		height: 40px;
+		position: absolute;
+		left: 184px;
+	}
+	#top_logo_left_left {
+		width: 220px;
+		height: 40px;		
+		background-image: url("images/ost-bg.png");
+		background-position: 0 -40px;
+		float: left;		
+	}
+	#top_logo_left_right{		
+		width: 234px;
+		height: 40px;
+		background-image: url("images/11.jpg");
+		float: left;	
+	}
+	#outer_wall{
+		clear: both;
+	}
+	#top_logo_right{
+		width: 226px;
+		height: 30px;
+		float: right;		
+		position: relative;
+		right: 187px;	
+
+	}
+	#top_logo_right_left{
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		background-image: url("images/logo (1).png");
+		background-position: 0;
+		background-repeat: no-repeat;
+		float: left;
+	}
+	#top_logo_right_left a{
+		text-decoration: none;
+		font-size: 13px;
+		color: black;
+	}
+	#top_logo_right_left a:hover{
+		color: red;
+	}
+	#top_logo_right_right{
+		display: inline;
+		width: 100px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+		float: left;
+		position: relative;
+	}
+	#top_font{
+		width: 89px;
+	}	
+	#top_logo_right_right1{
+		display: inline;
+		width: 11px;
+		height: 11px;	
+		background-color: red;	
+		/*background-image: url("images/ost-bg.png");*/
+		background-position: -150px -134px;
+		margin-left: auto;
+		margin-top: 15px;
+		float: right;
+		position: absolute;
+		right:0;
+	}
+	#top_logo_right_right:hover{
+		color: #ff4100;	
+	}
+	#top_logo_right_right1:hover{
+		background-image: url("images/ost-bg.png");
+		background-position: -170px -134px;
+	}
+	#center{
+		height: 84px;
+		background-color: #272B2E;
+		position: relative;
+	}
+	#center_logo{
+		display: inline;
+		width: 285px;
+		height: 50px;
+		position: relative;
+		left: 156px;
+		top: 15px;
+	}
+	#center_title{
+		display: inline;
+		float: right;
+		/*position: relative;
+		right: 156px;*/
+	}
+	#center_title li{
+		cursor: pointer;
+		height: 84px;
+		list-style: none;
+		float: left;
+		line-height: 79px;
+		text-align: center;
+		margin-left: 32px;
+		color: #5E84A4;
+		font-family: "黑体";
+		border-top: 5px solid #272B2E;
+	}
+	#center_title li:first-child,#center_title li:hover{
+		color: #52B3FF;
+		border-top: 5px solid #0486EB;
+	}
+	
+	
+	#bottom{
+		height: 413px;
+		background-image: url("images/1.jpg");
+		background-position: center center;
+		position: relative;
+	}
+	#bottom_dl{
+		width: 255px;
+		height: 64px;
+		background-image: url("images/tgp_sprites241.png");
+		background-position: 0 -244px;
+		position: absolute;
+		left: 210px;
+		top: 245px;
+	}
+	#bottom_dl:hover{
+		background-image: url("images/tgp_sprites241.png");
+		background-position: 0 -320px;
+	}
+	#bottom_dot ul{
+		list-style: none;
+		position: absolute;
+		left: 210px;
+		bottom: 16px; 
+	}
+	#bottom_dot li{
+		width: 12px;
+		height: 12px;
+		background-color: #b9bfcd;
+		float: left;
+		margin-right: 12px;			
+		border-radius: 12px;
+		cursor: pointer;
+	}
+	#bottom_dot li:first-child{
+		width: 24px;
+	}
+
+
+	#main{
+		width: 980px;
+		/*height: 1092px;*/
+		/*background-color: #86e2d3;*/
+		margin: 0 auto;
+		position: relative;
+
+	}
+
+	#main_news{
+		width: 698px;
+		height: 728px;
+		/*background-color: green;*/
+		position: relative;
+	}
+	#main_news_top{
+		width: 698px;
+		height: 48px;
+
+	}
+	#main_news_center{
+		height: 383px;
+		/*background-color: pink;*/
+		margin-top: 5px;
+	}
+	#main_act{
+		height: 345px;
+		/*background-color: lightgray;*/
+		/*margin-top: 30px;*/
+	}
+
+
+
+
+	#main_right{
+		width: 252px;
+		height: 728px;
+		/*background-color: lightgray;*/
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.fl{
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
+	.cb{
+		clear: both;
+	}
+	ul{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	/*标题*/
+	.title{
+		height: 48px;
+		font-size: 18px;
+		line-height: 48px;
+		color: #5c5c5c;
+	}
+	.title-icon{
+		width: 17px;
+		height: 16px;
+		margin-top: 16px;
+		margin-right: 4px;
+		border-left: 1px solid #5c5c5c;
+		background-image: url("images/tgp_sprites241.png");
+	}
+	#main_news_icon{
+		background-position: -215px -96px;
+	}
+	#main_act_icon{
+		background-position: -215px -120px;
+	}
+	#main_right_icon{
+		background-position: -215px -144px;
+	}
+	#main_bottom_left_icon{
+		background-position: -215px -167px;
+
+	}
+	#main_bottom_center_icon{
+		background-position: -215px -191px;
+	}
+	#main_bottom_right_icon{
+		background-position: -217px -215px;
+
+	}
+	.view_more{
+		width: 86px;
+		height: 30px;
+		background-color: #3EACFE;
+		text-align: center;
+		line-height: 30px;
+		color: white;
+		border-radius: 86px;
+		margin-top: 8px;
+		font-size: 14px;
+	}
+	#news_center_img{
+		width: 280px;
+		height: 335px;
+		position: absolute;
+		left: 0;
+		top: 48px;
+		/*background-color: pink;*/
+	}
+	#news_center_img img{
+		margin-top: 23px;
+		margin-left: 17px;
+	}
+
+	#main_right ul li{
+		margin: 8px 19px;
+
+	}
+	#news_center_title{
+		width: 416px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		margin-top: 22px;
+		/*border-top: 2px solid #FFF;*/
+	}
+	#news_center_title li{
+		width: 104px;
+		height: 40px;
+		line-height: 40px;
+		background-color: #CEDCED;
+	}
+
+	#news_center_title li:first-child{
+		border-top: 2px solid #009CFF;
+		background-color: #fff;
+		color: #009CFF;
+	}
+	.border-none{
+		border-top: 2px solid #fff;
+	}
+	#news_center_content{
+		padding:;
+		width: 380px;
+		margin-right:18px; 
+	}
+
+	#news_center_content ul li a{
+		color: #434343;
+		font-size: 14px;
+
+
+	}
+	#news_content_top{  /*  a*/
+		font-size: 20px !important;
+		color: #009CFF !important;
+		margin: 14px 0 19px 0;
+
+	}
+	#news_center_content ul li:first-child{
+		height: 94px;
+		border-bottom: 1px solid #EAEAEA;
+		margin-top:14px; 
+
+	}
+	#news_content_top_p{
+		margin-top: 10px;
+		color: #434343;
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.lili{
+		margin-top: 6px;
+	}
+
+	#outer_wall{
+		height: 18px;
+	}
+
+	#main_act_top{
+		width: 698px;
+		height: 48px;
+	}
+	#main_act_left{
+		width: 243px;
+		height: 260px;
+		background-image: url("images/555.jpg");
+		background-position: center center;
+		margin:18px;
+	}
+	#main_act_right{
+		width: 416px;
+		height: 276px;
+		/*background-color: lightblue;*/
+
+	}
+	#main_act_right ul li{
+		margin-right:18px;
+		margin-top: 18px;
+	}
+	#main_act_left ul{
+		position: absolute;
+		left: 110px;
+		bottom: 60px; 
+	}
+	#main_act_left ul li{
+		width: 12px;
+		height: 12px;
+		background-color: #B9BFCD;
+		float: left;
+		margin-right: 12px;
+		/*设置盒子的倒角*/
+		border-radius: 12px;
+	}
+	#main_act_left ul li:hover{
+		width: 24px;
+		background-color: #3CB8FF;
+
+	}
+
+	/*新游关注版*/
+	#main_bottom_left_top{
+		width: 230px;
+		height: 48px;
+	}
+	.nuber{
+		float: left;
+		background-color: #FF8400;
+	}
+	#main_bottom_left_ul ul li{
+		width: 212px;
+		height: 18px;
+		margin-top: 18px;
+		margin-left: 18px;
+	}
+
+	.nuber_content{
+		width: 95px;
+		height: 18px;
+		font-size: 14px;
+		color: #44474E;
+		line-height: 18px;
+		float: left;
+		margin-left: 10px;
+	}
+	.nuber-right{
+		width: 32px;
+		height: 18px;
+		margin-right: 12px;
+		background-color: #42B6FF;
+		font-size: 15px;
+		color: white;
+		text-align: center;
+		line-height: 18px;
+	}
+	#main_bottom_left_img{
+		margin-top: 6px;
+		margin-left: 20px;
+	}
+
+	/*热门视频*/
+	#main_bottom_center_top{
+		width: 436px;
+		height: 48px;
+	}
+	#main_botton_center_four ul li{
+		margin:18px 18px 0 18px;
+	}
+	/*合作伙伴*/
+	#main_bottom_right_top{
+		width: 252px;
+		height: 48px;
+	}
+	#main_bottom_right_four ul{
+		width: 252px;
+		height: 290px;
+
+	}
+	#main_bottom_right_four ul li{
+		width: 98px;
+		height: 126px;
+		float: left;
+		margin-left: 20px;
+		margin-top: 20px;
+
+	}
+	.super{
+		text-align: center;
+		margin-top: 4px;
+		font-size: 10px;
+		margin-left: 20px;
+		color: #44474E;
+	}
+
+	#main_bottom_right_top ul{
+		float: right;
+
+	}
+	#main_bottom_right_top ul li{
+		width: 12px;
+		height: 12px;
+		background-color: #CBD8E6;
+		float: right;
+		margin-right: 12px;
+		border-radius: 14px;
+		margin-top: 18px;
+	}
+	#main_bottom_right_top ul li:first-child{
+		margin-right: 0;
+	}
+
+
+
+
+
+	#main_bottom_left{
+		width: 230px;
+		height: 346px;
+		/*background-color: lightgray;*/
+
+	}
+	#main_bottom_center{
+		width: 436px;
+		height: 346px;
+		/*background-color: lightgray;*/
+		margin: 0 31px;
+	}
+	#main_bottom_right{
+		width: 252px;
+		height: 346px;
+		/*background-color: lightgray;*/
+	}
+
+
+	#foot{
+		margin-top: 100px;
+		height: 170px;
+		background-color: #181C23;
+	}
+	#foot p{
+		width: 940px;
+		height: 19px;
+		text-align: center;
+		color: #5F697D;
+		font-size: 10px;
+	}
+	#foot p a{
+		font-size: 10px;
+		/*border-right: 1px solid #5F697D;*/
+		color: #5F697D;
+		margin-left:5px;
+		margin-right: 5px;
+		text-align: center;
+
+
+	}
+	#foot div{
+		width: 940px;
+		height: 57px;
+		padding:30px;
+		margin: 0 auto;
+
+	}
+	</style>
+
+	<script type="text/javascript">
+	window.onload = function(){
+
+		function $(id){
+			return document.getElementById(id);
+		}
+
+		var bottom = $("bottom");
+		var bottomUl = $("bottom_ul");
+		var lis = bottomUl.getElementsByTagName("li")
+		var imgs = ["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg","images/5.jpg","images/6.jpg","images/7.jpg"]
+
+		//手动切换图片
+		for (var i = 0; i < lis.length; i++) {
+			lis[i].index = i;
+			lis[i].onmouseover = function(){
+				for (var j = 0; j < lis.length; j++) {
+					lis[j].style.width = "12px";
+				}
+				this.style.width = "24px";
+				bottom.style.backgroundImage = "url("+imgs[this.index]+")";
+
+				imgUrlIndex = this.index;
+				//imgUrlIndex是成员变量,所以函数里面也能调用的到他,然后this.index是用户触摸到的下标
+				//把用户触摸的下标赋值给自动下标,图片就会从这个下标后面自动变化图片
+			}
+		}
+
+
+		//定时切换图片
+		var imgUrlIndex = 0;
+		//每隔2秒切换图片
+		setInterval(function(){
+			//下标变化
+			imgUrlIndex++;
+			//下标一直在0~6之间切换,7张图片
+			imgUrlIndex = imgUrlIndex%imgs.length
+			bottom.style.backgroundImage = "url("+imgs[imgUrlIndex]+")";
+
+			//指示器的变化:指示器的下标等于图片的下标
+			for (var i = 0; i < lis.length; i++) {
+				lis[i].style.width = "12px";
+			}
+			lis[imgUrlIndex].style.width = "24px";
+			
+		},3000)
+
+
+
+
+
+	}
+	</script>
+</head>
+<body>
+
+	<div id="top">
+		<div id="top_logo_left">
+			<div id="top_logo_left_left"><a href="images/"></a></div>
+			<div id="top_logo_left_right"></div>
+		</div>
+
+		<div id="outer_wall"></div>
+
+		<div id="top_logo_right">
+			<img src="images/logo1.png" alt="" class="fl"/>
+			<!-- <div id="top_logo_right_left"> -->
+			<a href="#" class="fl">成长守护平台</a>
+			<!-- </div> -->
+
+			<!-- <div id="top_logo_right_right"> -->
+			<a href="#" class="fr">腾讯游戏排行榜</a>
+			<!-- <span id="top_logo_right_right1"></span> -->
+		</div>				
+		<!-- </div>			 -->
+	</div>
+
+	<div id="center">
+		<div id="center_logo">
+			<a href="#"><img src="images/logo.png" alt="" /></a>
+		</div>
+		<div id="center_title">
+			<ul>
+				<li>主页</li>
+				<li>游戏助手</li>
+				<li>活动中心</li>
+				<li>TGB BOX</li>
+				<li>掌上TGB</li>
+				<li>TGB2.0</li>
+				<li>网吧专版</li>
+				<li>官方论坛</li>
+			</ul>
+		</div>
+	</div>
+	<div id="bottom">
+		<div id="bottom_dl"></div>
+		<div id="bottom_dot">
+			<ul id="bottom_ul">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<!-- 新闻 -->
+		<div id="main_news">
+
+			<div id="main_news_center">
+				<div id="main_news_top">
+					<div id="main_news_icon" class="title-icon fl"></div>
+					<span class="fl title">新闻中心</span>
+					<span id="view_more" class="fr view_more">查看更多+</span>
+					<div id="inter_wall" class="cb"></div>
+				</div>
+
+				<div id="news_center_img" class="fl">
+					<img src="images/111.jpg" alt="异星降临,火源升起" />
+				</div>
+
+
+				<ul id="news_center_title" class="fr">
+					<li class="fl ">全部</li>
+					<li class="fl border-none">公告</li>
+					<li class="fl border-none">活动</li>
+					<li class="fl border-none">媒体</li>
+				</ul>
+				<div class="cb"></div>
+
+				<div id="news_center_content" class="fr">
+					<ul>
+						<li>
+							<a href="#" id="news_content_top">《星露谷物语》首周销量突破100000套！</a>
+							<p id="news_content_top_p">星露谷物语首周销量突破10万，为WeGame平台升级打响头炮</p>
+						</li>
+						<li class="lili">
+							<a href="#">[公告]</a>
+							<a href="#">WeGame发现全球好游戏</a>
+						</li>
+						<li class="lili">
+							<a href="#">[活动]</a>
+							<a href="#">敖厂长玩转《星露谷物语》，养鸡二厂创业揭秘！</a>
+						</li>
+						<li class="lili">
+							<a href="#">[公告]</a>
+							<a href="#">2017腾讯游戏平台（TGP）版本更新日志</a>
+						</li>
+						<li class="lili">
+							<a href="#">[公告]</a>
+							<a href="#">TGP饥荒首月热销突破100万</a>
+						</li>
+						<li class="lili">
+							<a href="#">[公告]</a>
+							<a href="#">TGP《饥荒：联机版》双周热销50万份，走心营造国内</a>
+						</li>
+					</ul>
+
+				</div>
+
+
+				<div class="cb"></div>
+			</div>
+
+
+
+
+			<div id="main_act">
+				<div id="main_act_top">
+					<div id="main_act_icon" class="title-icon fl"></div>
+					<span class="fl title">最新活动</span>
+					<span id="view_more" class="fr view_more">查看更多+</span>
+				</div>
+				<div id="main_act_left" class="fl">
+					<!-- <img src="images/555.jpg" alt="" /> -->
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div id="main_act_right" class="fr four">
+					<ul>
+						<li><img src="images/1a.jpg" alt="" class="fl"/></li>
+						<li><img src="images/1b.jpg" alt="" class="fr"/></li>
+						<div id="main_act_box" class="cb"></div>
+						<li><img src="images/1c.jpg" alt="" class="fl"/></li>
+						<li><img src="images/1d.jpg" alt="" class="fr"/></li>
+					</ul>
+
+
+
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<!-- 新闻下面的图片	 -->
+		<div id="main_news_bottom"></div>
+		<!-- 右边图片 -->
+		<div id="main_right">
+			<div>
+				<div id="main_right_icon" class="title-icon fl"></div>
+				<span class="fl title">功能直通车</span>
+			</div>
+			<div>
+				<ul>
+					<li><img src="images/bus_1.jpg" alt="" /></li>
+					<li><img src="images/bus_2.jpg" alt="" /></li>
+					<li><img src="images/bus_3.jpg" alt="" /></li>
+					<li><img src="images/bus_4.jpg" alt="" /></li>
+					<li><img src="images/bus_5.jpg" alt="" /></li>
+					<li><img src="images/bus_8.png" alt="" /></li>
+				</ul>
+			</div>
+
+
+		</div>	
+		<div id="outer_wall" class="cb"></div>
+		<!-- 下面三块 -->
+		<div id="main_bottom_left" class="fl">
+			<div id="main_bottom_left_top">
+				<div id="main_bottom_left_icon" class="title-icon fl"></div>
+				<span class="fl title">新游关注榜</span>
+			</div>
+			<div id="main_bottom_left_ul">
+				<ul>
+					<li>
+						<span class="nuber">01</span>
+						<a href="#" class="nuber_content">新流星搜剑录</a>
+						<a href="#" class="fr nuber-right">官网</a>
+						<a href="#" class="fr nuber-right">抢号</a>
+					</li>
+					<li>
+						<span class="nuber">02</span>
+						<a href="#" class="nuber_content">天涯明月刀</a>
+						<a href="#" class="fr nuber-right">官网</a>
+						<a href="#" class="fr nuber-right">抢号</a>
+					</li>
+					<li>
+						<span class="nuber">03</span>
+						<a href="#" class="nuber_content">流放之路</a>
+						<a href="#" class="fr nuber-right">官网</a>
+						<a href="#" class="fr nuber-right">抢号</a>
+					</li>
+					<li>
+						<span class="nuber">04</span>
+						<a href="#" class="nuber_content">战争雷霆</a>
+						<a href="#" class="fr nuber-right">官网</a>
+						<a href="#" class="fr nuber-right">抢号</a>
+					</li>
+					<li>
+						<span class="nuber">05</span>
+						<a href="#" class="nuber_content">枪神纪</a>
+						<a href="#" class="fr nuber-right">官网</a>
+						<a href="#" class="fr nuber-right">抢号</a>
+					</li>
+				</ul>
+			</div>
+			<div id="main_bottom_left_img">
+				<img src="images/01.jpg" alt="" />
+			</div>
+		</div>
+		<!-- 热门视频 -->
+		<div id="main_bottom_center" class="fl">
+			<div id="main_bottom_center_top">
+				<div id="main_bottom_center_icon" class="title-icon fl"></div>
+				<span class="fl title">热门视频</span>
+			</div >
+			<div id="main_botton_center_four">
+				<ul >
+					<li><img src="images/2a.jpg" alt="" class="fl"/></li>
+					<li><img src="images/2b.jpg" alt="" class="fr"/></li>
+					<div id="main_bottom_box" class="cb"></div>
+					<li><img src="images/2c.jpg" alt="" class="fl"/></li>
+					<li><img src="images/2d.jpg" alt="" class="fr"/></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="main_bottom_right" class="fl">
+			<div id="main_bottom_right_top">
+				<div id="main_bottom_right_icon" class="title-icon fl"></div>
+				<span class="fl title">合作伙伴</span>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div id="main_bottom_right_four">
+				<ul>
+					<li class="fl">
+						<img src="images/3a.jpg" alt=""  />
+						<a href="#" class="super">QQ阅读</a>
+					</li>
+					<li>
+						<img src="images/3b.jpg" alt=""  />
+						<a href="#" class="super">腾讯GAD</a>
+					</li class="fr" >
+					<div id="main_bottom_box"></div>
+					<li class="fl">
+						<img src="images/3c.png" alt=""  />
+						<a href="#" class="super">腾讯动漫</a>
+					</li>
+					<li>
+						<img src="images/3d.png" alt="" />
+						<a href="#" class="super">好莱坞影院</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="inter_wall" class="cb"></div>
+	</div>
+</div>
+<div id="foot">
+	<div>
+		<p>
+			<a href="#">腾讯互动娱乐</a>
+			| 
+			<a href="#">服务条款</a>
+			|
+			<a href="#">广告服务</a>
+			|
+			<a href="#">腾讯游戏招聘</a>
+			|
+			<a href="#">腾讯游戏客服</a>
+			|
+			<a href="#">游戏地图</a>
+			|
+			<a href="#">游戏活动</a>
+			|
+			<a href="#">成长守护平台</a>
+			|
+			<a href="#">商务合作</a>
+			|
+			<a href="#">网站导航</a>
+
+		</p>
+		<p>COPYRIGHT © 1998 – 2017 TENCENT. ALL RIGHTS RESERVED.</p>
+		<p>
+			<a href="#">腾讯公司 版权所有</a>
+		</p>
+	</div>
+</div>
+
+
+</body>
+</html>
